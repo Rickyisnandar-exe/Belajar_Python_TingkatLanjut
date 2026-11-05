@@ -47,7 +47,31 @@ print(thislist)
 tropical = ["mango", "pineapple", "papaya"]
 thislist.extend(tropical)
 
-print(thislist)
+# print(thislist)
+
+# thislist.remove("mango")
+# print(thislist)
+
+# thislist.pop(1)
+# print(thislist)
+
+# del thislist[0]
+# print(thislist)
+
+# thislist.clear()
+# print(thislist)
+
+# del thislist
+
+# print(thislist)
+
+for x in thislist:
+    print(x)
+
+for x in range(len(thislist)):
+    print(x)
+
+
 
 
 
