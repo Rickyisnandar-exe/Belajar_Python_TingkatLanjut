@@ -40,3 +40,54 @@ print(thisTuple)
 
 # del thisTuple
 # print(thisTuple)
+
+matkul = ("aij", "pemograman", "arkom", "basisdata", "apple", "banana", "cherry", "strawberry", "raspberry")
+
+(x, y, z, a, *b) = matkul
+
+print(matkul)
+print(x)
+print(y)
+print(a)
+print(b)
+
+data = ("budi", 18, "bekasi")
+(x, _, y) = data
+print(x, y)
+
+
+for x in thisTuple:
+    print(x)
+
+for x in range(len(thisTuple)):
+    print(x)
+
+i = 0
+while i < len(thisTuple):
+    print(thisTuple[i])
+    i += 1
+
+for i, buah in enumerate(thisTuple):
+    print(i, buah)
+
+for i, buah in enumerate(thisTuple, start=1):
+    print(f"{i}. {buah}")
+
+tuple1 = ("a", "b", "c")
+tuple2 = (1, 2, 3)
+mytuple = tuple1 + tuple2
+print(mytuple)
+
+a = (1, 2)
+b = (3, 4)
+c = (5,)
+print( a + b + c )
+
+fruits = ("apple", "banana", "cherry")
+buahBanyak = fruits * 2
+print(buahBanyak)
+
+t = buahBanyak + ("kiwi" ,)
+print(t)
+
+
