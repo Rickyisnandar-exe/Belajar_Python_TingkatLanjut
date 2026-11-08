@@ -72,6 +72,37 @@ for x in range(len(thislist)):
     print(x)
 
 
+iniBuah =  ["apple", "banana", "cherry", "kiwi", "mango"]
+
+listBaru = [x for x in iniBuah if "a" in x]
+print(listBaru)
 
 
+thislist.sort()
+print(thislist)
 
+thislist.sort(reverse=True)
+print(thislist)
+
+listSaya = thislist.copy()
+print(listSaya)
+
+listSaya1 = list(thislist)
+print(listSaya1)
+
+listBaruKemarin = thislist [1 : 3]
+print(listBaruKemarin)
+
+
+list1 = ['a', 'b', 'c', 'd']
+list2 = [1, 2, 3, 4]
+
+list_baru = list1 + list2
+print(list_baru)
+
+list1.extend(list2)
+print(list1)
+
+for x in list2:
+    list1.append(x)
+    print(list1)
