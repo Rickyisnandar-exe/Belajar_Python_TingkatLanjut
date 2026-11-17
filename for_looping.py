@@ -35,3 +35,13 @@ for n in angka:
         break
 else:
     print("Tidak ditemukan")
+
+adj = ["merah", "biru", "kuning"]
+buah = ["apple", "jeruk", "pepaya"]
+
+for x in adj:
+    for y in buah:
+        print(x, y)
+
+for x in range(0, 1, 2):
+    pass
