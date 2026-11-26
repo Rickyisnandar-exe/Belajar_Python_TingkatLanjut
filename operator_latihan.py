@@ -25,7 +25,7 @@ t **= 4
 t //= 2
 
 print(t)
-print(t)
+print(t)    
 print(t)
 print(t)
 print(t)
